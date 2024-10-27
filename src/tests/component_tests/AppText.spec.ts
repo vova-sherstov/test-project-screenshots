@@ -32,7 +32,7 @@ test.describe('AppText Component', () => {
       })
 
       await expect(component).toHaveText(`Text for variant ${variant}`)
-      // await expect(component).toHaveScreenshot()
+      await expect(component).toHaveScreenshot()
     })
   }
 
