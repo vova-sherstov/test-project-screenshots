@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import AppText from "@/components/AppText.vue";
+import AppText from "@/components/ui-kit/AppText.vue";
 </script>
 
 <template>
